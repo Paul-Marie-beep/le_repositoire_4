@@ -1,0 +1,275 @@
+
+
+
+a{
+    text-decoration: none;
+  }
+
+.nav
+{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1em;
+}
+
+
+
+   .right
+   {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   }
+
+    .bouton
+    {  
+      
+      padding-left: 10px;
+      padding-right: 10px ;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+    }
+
+    .gmail
+    {
+      
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      text-decoration: none;
+      }
+
+
+    .bouton_bleu
+      {
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:rgba(66,133,244, 1) ;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .bouton_bleu:active a
+      {
+        background-color: darkblue;
+      }    
+
+     .connexion    
+        {font-family: Arial, sans-serif;
+          font-size: 13px;
+          color: white;
+          font-weight: bold;
+          }
+      
+      
+
+.photologo
+{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .photo
+  {
+    
+    margin-top: 3%;
+    padding-right: 0%;
+    margin-right: 0%;
+  }
+  
+  .logo
+  {
+    
+    margin-top: 18%;
+    padding-left: 0.1%;
+    margin-left: 0%;
+  }
+
+
+.surbarre
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.1em;
+}
+  
+  .sousbarre
+    {
+      width: 520px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    
+    .barre
+      {
+        border: 2px solid gray;
+        border-radius: 10px;
+        height: 44px;
+        width: 482px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+
+        .loupe
+        {
+          padding-left: 5px;
+        }
+
+      
+
+    
+          .micro
+          {
+            
+          }
+
+
+.carre
+{
+  
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+  .carre1
+  {
+    
+    width: 150.75px;
+    height: 36px;
+    color: #5f6368;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .carre2
+  {
+   
+    width: 150.75px;
+    height: 36px;
+    background-color:#f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .chance
+    {
+      font-size:14px;
+      font-family:Arial, sans-serif;
+      color: #5f6368;
+    }
+
+      
+    
+.bas
+    {
+      
+      margin-left: 0%;
+      margin-right: 0%;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      
+      
+    }
+
+    .france
+    {
+      margin-left: 0%;
+      background-color:#f2f2f2;
+      color: rgba(0,0,0, 0.54);
+      font-size:15px;
+      font-family:Arial, sans-serif;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      position: relative;
+    }
+
+
+        
+      .fr
+      {
+        margin-left: 0.3em;
+      }
+
+  
+
+    .foot
+    {   
+      background-color:#f2f2f2;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+      
+    }
+
+      .left_foot
+      {
+        
+        display: flex;
+        margin-left: 0,7em;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .right_foot
+      {
+        
+        display: flex;
+        margin-right: 0.7em;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+        .item
+        {
+          
+          height: 40px;
+          width: auto;
+          margin-left:0.3em;
+          margin-right: 0.3em;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+        }
+
+        .lien
+        {
+          font-size:14px;
+          font-family:Arial, sans-serif;
+          color:#5f6368
+        }
